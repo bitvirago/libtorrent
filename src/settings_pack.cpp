@@ -239,7 +239,7 @@ constexpr int CLOSE_FILE_INTERVAL = 0;
 		SET(inactivity_timeout, 600, nullptr),
 		SET(unchoke_interval, 15, nullptr),
 		SET(optimistic_unchoke_interval, 30, nullptr),
-		SET(num_want, 200, nullptr),
+		SET(num_want, 500, nullptr),
 		SET(initial_picker_threshold, 4, nullptr),
 		SET(allowed_fast_set_size, 5, nullptr),
 		SET(suggest_mode, settings_pack::no_piece_suggestions, nullptr),
