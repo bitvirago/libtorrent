@@ -2,7 +2,7 @@ name: Linux
 
 on:
    push:
-      branches: *
+      branches: [ v1.2.12 ]
    pull_request:
 
 jobs:
